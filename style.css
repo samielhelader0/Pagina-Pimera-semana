@@ -1,0 +1,138 @@
+*{
+    font-family: 'Gaegu', cursive;
+    margin:0;
+    padding:0;
+    font-weight: bold;
+}
+
+header{
+    background-color:  #90afc5; 
+}
+ol{
+    list-style: none;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    align-items: center;
+    
+}
+.li1{
+    flex-grow: 1;
+    margin: 0 0 0 10px;
+}
+.litxt{
+    margin: 0 10px;
+}
+.litxt:hover{
+    background-color: #336b87;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.section1{
+    height: 700px;
+    width: 100%;
+    background-color: #2a3132;
+}
+.everest{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    object-fit: cover;
+}
+h1{
+    position: absolute;
+    top: 130px;
+    left: 85%;
+}
+h1:hover{
+    cursor: pointer;
+}
+.container-buttons{
+    
+    height:120px ;
+    width: 100%;
+    position: absolute;
+    display:flex;  
+    align-items: center;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: ;
+    margin-top: -220px;
+}
+.buttons{
+    position: relative;
+    height: 200px;
+    border-radius: 200px;
+    width: 200px;
+    border: none;
+    background-color:#90afc5;
+    opacity: 70%;
+}
+.buttons:hover{
+    cursor: pointer;
+    opacity: 100%;
+    zoom: 1.3;
+}
+span{
+    
+}
+.padre-descripcion{
+    background-color:#90afc5;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    align-items: start;
+    flex-direction: column;
+}
+.hijo-descripcion{
+    margin-top: 20px;
+}
+.años{
+    flex-direction: column;
+    display: flex;
+    margin-top: 50px;
+}
+.años-li{
+    padding: 10px 0 10px 10px;
+}
+.años-li-button{
+    height: 60px;
+    width: 90px;
+    border: none;
+    background-color:#336b87;
+    border-radius: 60px;
+}
+.años-li-button:hover{
+    cursor: pointer;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background-color: #336b87;
+}
+.phpta{
+ position:absolute
+}
+.container-logos{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: end;
+    padding-top: 50px;
+    padding-right: 1000px;
+}
+.logos{
+    list-style: none;
+    margin: 10px;
+}
+.logos:hover{
+    cursor: pointer;
+}
